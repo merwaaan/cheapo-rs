@@ -1,7 +1,13 @@
 [package]
-name = "cheapo"
+name = "cheapo-rs"
 version = "0.1.0"
+description = "Chip-8 interpreter"
+keywords = ["Chip-8", "emulator"]
 authors = ["Merwan Achibet <achibet.merwan@gmail.com>"]
 
 [dependencies]
 rand = "0.3"
+piston = "0.19.0"
+piston2d-graphics = "0.16.0"
+pistoncore-glutin_window = "0.22.0"
+piston2d-opengl_graphics = "0.25.0"
